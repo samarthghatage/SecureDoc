@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files - handle separately before committing
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated reports and temporary files
+reports/*
+!reports/.gitkeep
+*.log
+*.tmp
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
